@@ -1,0 +1,298 @@
+body{
+    margin:auto 10%; 
+    background:silver; 
+}
+
+#wraffer{
+    background-color: red;
+    width:100%; 
+    height:auto; 
+}
+
+#header_wraffer{
+    background-color: black;
+    width:100%;
+    height:200px; 
+    float:left; 
+}
+
+#logo{
+    background-color: green;
+    width:20%;
+    height: 200px;
+    float: right;
+    margin-right:0.03%;  
+
+}
+#logo img{
+    width:100%;
+    height:220px; 
+}
+
+#banner{
+    background-color:navy;
+    width:79.7%;
+    height: 200px;
+    float:right; 
+    color: red;
+    
+    text-align:center;
+    font-size:20px;
+    
+ 
+
+}
+
+#menu{
+    background:#cc0000;
+    background-color: darkblue;
+    width:100%;
+    height:80px;
+    margin-top:3px;
+    float:left; 
+
+}
+
+#menu ul{
+    margin:0px;
+    padding:0px; 
+}
+
+#menu ul li{
+    float:left;
+    background: red;
+    list-style-type: none;
+    margin-left:1px; 
+    font-size:13px;
+    padding:10px;
+    width:10%; 
+    /*height:200px; */ 
+    text-align:center; 
+    transition:all 1s; 
+     
+    border-radius:0px 40px ; 
+}
+
+
+#menu ul li a{
+    text-decoration:none;
+    color:white; 
+}
+
+
+#menu ul :hover{
+    background: blue;
+    color:white; 
+    transition:all 0s;
+    border-radius:40px 0px ; 
+}
+
+#slider{
+    background:darkblue;
+    width:100%;
+    height:403px;
+float:right; 
+}
+
+#slider img{
+    width:100%;
+    height:400px; 
+}
+
+
+#content_wraffer{
+    background-color:buttonhighlight;
+    width:100%;
+    height:auto; 
+    margin-top:3px;
+    float:right; 
+}
+
+#left_content{
+    background-color:darkred;
+    width:25%;
+    height:auto; 
+    float:left;
+
+}
+
+#left_content ul{
+    margin:0px;
+    padding:0px; 
+}
+
+#left_content ul li{
+   /* float:left; */
+    background:darkblue;
+    list-style-type: none;
+    margin-bottom:2px; 
+    font-size:20px;
+    padding:23px;
+    width:83%; 
+    /*height:70px; */
+    text-align:center; 
+}
+
+#left_content ul li a{
+    text-decoration:none;
+    color:white; 
+}
+#mid_content{
+    background-color:whitesmoke;
+    width:48%;
+    height:auto; 
+    float:left;
+    margin-left:0.3%; 
+    margin-right:0.3%; 
+    padding:5px; 
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #00008B	;
+    color:     white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #cc0000;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+signupbtn {
+  float: left;
+  width: 50%;
+  background-color:#00008B;
+  
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color:  darkblue;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color:darkred;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #cc0000;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+#right_content{
+    background-color:darkred;
+    width:25%;
+    height:auto; 
+    float:right; 
+}
+#right_content ul{
+    margin:0px;
+    padding:0px; 
+}
+
+#right_content ul li{
+    float:right;
+    background:darkblue;
+    list-style-type: none;
+    margin-bottom:2px; 
+    font-size:20px;
+    padding:23px;
+    width:83%; 
+    /*height:70px;*/
+    text-align:center; 
+}
+
+#right_content ul li a{
+    text-decoration:none;
+    color:white; 
+}
+
+
+
+#footer{
+    background:darkblue;
+    width:100%;
+    height:80px; 
+    margin-top:3px;
+    float:left; 
+    text-align: center;
+    color:darkred; 
+}
+
